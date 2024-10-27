@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: 
+url('https://i.imgur.com/8nM3gFN.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F5FFFA;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f0a500; /* Cambia el color al pasar el mouse */
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.featured-products {
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    background: white;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones para el hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Escalar el producto al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Transición para la imagen */
+}
+
+.product-card:hover img {
+    transform: scale(1.1); /* Escalar la imagen al pasar el mouse */
+}
+
+.price {
+    font-weight: bold;
+    color: #e63946; /* Color rojo */
+}
+
+button {
+    background: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s; /* Transición suave para el botón */
+}
+
+button:hover {
+    background: #0056b3; /* Azul más oscuro */
+}
+
+.promo-card {
+    background: rgba(255, 223, 186, 0.9);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    width: 80%;
+    transition: transform 0.3s; /* Transición para la tarjeta de promoción */
+}
+
+.promo-card:hover {
+    transform: scale(1.02); /* Escalar la tarjeta de promoción al pasar el mouse */
+}
+.reseñas-container {
+    display: flex; /* Activa el diseño flex */
+    flex-direction: column; /* Alinea las reseñas en una columna */
+    align-items: center; /* Centra horizontalmente cada reseña */
+    gap: 20px; /* Espacio entre las reseñas */
+}
+
+.resena {
+    font-style: italic;
+    color: #555;
+    display: flex;
+    flex-direction: column; /* Mantiene el contenido de la reseña en una columna */
+    align-items: center; /* Centra el contenido dentro de la reseña */
+    background-color: #f4f4f4;
+    border: 2px solid #333; /* Borde de 2px de grosor y color gris oscuro */
+    padding: 10px; /* Espacio dentro del borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 200px; /* Ancho de la reseña */
+}
+
+.imagen-cliente {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Ajusta el tamaño de la imagen */
+    border-radius: 50%; /* Imagen en forma de círculo */
+    margin-bottom: 10px; /* Espacio entre la imagen y la reseña */
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(248, 249, 250, 0.8);
+}
+
+h2 {
+  color: white; /* Color del texto */
+            text-shadow: 
+                1px 1px 0px black,  
+                -1px -1px 0px black, 
+                1px -1px 0px black,  
+                -1px 1px 0px black;
+}
